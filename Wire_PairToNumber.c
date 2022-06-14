@@ -1,7 +1,7 @@
 #include "Wire_ColorCode.h"
 
-
-int GetPairNumberFromColor(const ColorPair* colorPair) {
+int GetPairNumberFromColor(const ColorPair* colorPair)
+{
     return colorPair->majorColor * numberOfMinorColors +
             colorPair->minorColor + 1;
 }
