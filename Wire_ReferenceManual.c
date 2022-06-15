@@ -20,6 +20,7 @@ void ReferenceManual(void)
     int maxColorPairCombinations = numberOfMajorColors * numberOfMinorColors;
     char colorPairNames[MAX_COLORPAIR_NAME_CHARS];
 
+    printf("\n\nReference Manual for wiring personnel\n");
     printf("Major-color    Minor-color    Pair-No.\n");
     for (pairNumber = 1; pairNumber <= maxColorPairCombinations; ++pairNumber)
     {
@@ -27,4 +28,5 @@ void ReferenceManual(void)
         ColorPairNameAndNumberToString(&colorPair, colorPairNames, pairNumber);
         printf("%s\n", colorPairNames);
     }
+    printf("End of - Reference Manual for wiring personnel\n");
 }
