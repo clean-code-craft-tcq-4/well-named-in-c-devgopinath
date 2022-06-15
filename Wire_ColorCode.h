@@ -22,5 +22,6 @@ extern void testPairToNumber(
 extern void testNumberToPair(int pairNumber,
     enum MajorColor expectedMajor,
     enum MinorColor expectedMinor);
+extern void ReferenceManual(void);
 
 #endif /* end of WIRE_COLORCODE_H */
