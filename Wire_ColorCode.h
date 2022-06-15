@@ -1,4 +1,4 @@
-#ifdef WIRE_COLORCODE_H
+#ifndef WIRE_COLORCODE_H
 #define WIRE_COLORCODE_H
 
 enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
