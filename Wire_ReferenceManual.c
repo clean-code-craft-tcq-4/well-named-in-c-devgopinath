@@ -8,8 +8,9 @@ The color coding needs to be printed as a reference manual for wiring personnel.
 
 static void ColorPairNameAndNumberToString(const ColorPair* colorPair, char* buffer, int pairNumber)
 {
-    ColorPairToString(colorPair, buffer);
-    sprintf(buffer, "%s %d", buffer, pairNumber);
+    sprintf(buffer, "%s %s %d",
+        MajorColorNames[colorPair->majorColor],
+        MinorColorNames[colorPair->minorColor], pairNumber);
 }
 
 void ReferenceManual(void)

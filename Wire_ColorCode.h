@@ -18,7 +18,6 @@ extern int numberOfMajorColors;
 extern int numberOfMinorColors;
 
 extern ColorPair GetColorFromPairNumber(int pairNumber);
-extern void ColorPairToString(const ColorPair* colorPair, char* buffer);
 
 extern void testPairToNumber(
     enum MajorColor major,
