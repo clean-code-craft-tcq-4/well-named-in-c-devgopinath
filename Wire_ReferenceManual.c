@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "Wire_ColorCode.h"
 
 /*
