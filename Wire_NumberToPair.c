@@ -1,3 +1,4 @@
+#include <assert.h>
 #include "Wire_ColorCode.h"
 
 const int MAX_COLORPAIR_NAME_CHARS = 16;
