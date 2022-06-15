@@ -17,6 +17,8 @@ extern const char* MinorColorNames[];
 extern int numberOfMajorColors;
 extern int numberOfMinorColors;
 
+extern ColorPair GetColorFromPairNumber(int pairNumber);
+
 extern void testPairToNumber(
     enum MajorColor major,
     enum MinorColor minor,
