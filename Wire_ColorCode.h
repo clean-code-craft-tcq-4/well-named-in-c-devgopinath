@@ -1,6 +1,8 @@
 #ifndef WIRE_COLORCODE_H
 #define WIRE_COLORCODE_H
 
+#define MAX_COLORPAIR_NAME_CHARS 16
+
 enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
 enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
 
