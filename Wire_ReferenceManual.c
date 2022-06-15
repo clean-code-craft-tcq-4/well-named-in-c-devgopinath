@@ -23,7 +23,7 @@ void ReferenceManual(void)
     for (pairNumber = 1; pairNumber <= maxColorPairCombinations; ++pairNumber)
     {
         colorPair = GetColorFromPairNumber(pairNumber);
-        ColorPairToString(&colorPair, colorPairNames, pairNumber);
+        ColorPairNameAndNumberToString(&colorPair, colorPairNames, pairNumber);
         printf("%s\n", colorPairNames);
     }
 }
